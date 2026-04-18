@@ -1,7 +1,7 @@
 import { Phone, FileText, Wifi, Zap, Shield, Clock } from 'lucide-react';
 
 function App() {
-  const whatsappNumber = '5511965157358';
+  const whatsappNumber = '5511969520672';
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   const handleWhatsAppClick = (message: string) => {
