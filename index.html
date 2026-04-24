@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOELMIR SOARES DA SILVA DE JESUS - Transporte de Produtos</title>
+    <title>IVONETE DANIELE RODRIGUES BORGES - Costuras</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
         }
         header {
-            background-color: #1e3a8a;
+            background-color: #8b3a62;
             color: white;
             padding: 20px;
             text-align: center;
         }
         nav {
-            background-color: #374151;
+            background-color: #d46a92;
             padding: 10px;
             text-align: center;
         }
@@ -27,69 +27,101 @@
             text-decoration: none;
             font-weight: bold;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
         section {
             padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
         }
         .card {
             background: white;
             padding: 15px;
-            margin: 10px 0;
+            margin: 15px 0;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
         }
         footer {
-            background-color: #1e3a8a;
+            background-color: #8b3a62;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>JOELMIR SOARES DA SILVA DE JESUS</h1>
-    <p>Transporte de Produtos com Segurança e Agilidade</p>
+    <h1>IVONETE DANIELE RODRIGUES BORGES</h1>
+    <p>Especialista em Costuras e Ajustes</p>
 </header>
 
 <nav>
-    <a href="#">Início</a>
-    <a href="#">Serviços</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
 </nav>
 
-<section>
-    <div class="card">
-        <h2>Sobre o Serviço</h2>
-        <p>Oferecemos transporte de produtos com eficiência, garantindo a integridade e a entrega no prazo. Trabalhamos com diferentes tipos de cargas e rotas.</p>
+<section id="sobre">
+    <div class="container">
+        <div class="card">
+            <h2>Sobre</h2>
+            <p>
+                Bem-vindo ao ateliê de costura de Ivonete Daniele Rodrigues Borges.
+                Trabalhamos com ajustes, reformas e criação de peças sob medida,
+                garantindo qualidade, cuidado e atenção aos detalhes.
+            </p>
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Costura">
+        </div>
     </div>
+</section>
 
-    <div class="card">
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>Transporte de cargas leves</li>
-            <li>Entrega rápida</li>
-            <li>Logística personalizada</li>
-            <li>Atendimento em diversas regiões</li>
-        </ul>
+<section id="servicos">
+    <div class="container">
+        <div class="card">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Ajustes de roupas</li>
+                <li>Reformas de peças</li>
+                <li>Confecção sob medida</li>
+                <li>Customização de roupas</li>
+                <li>Consertos em geral</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1593032465171-8b5c8c5c8f7f" alt="Máquina de costura">
+        </div>
     </div>
+</section>
 
-    <div class="card">
-        <h2>Contato</h2>
-        <p>Email: contato@transporte.com</p>
-        <p>Telefone: (11) 99999-9999</p>
+<section id="galeria">
+    <div class="container">
+        <div class="card">
+            <h2>Galeria</h2>
+            <p>Veja alguns exemplos de trabalhos realizados:</p>
+            <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="Trabalho de costura">
+            <br><br>
+            <img src="https://images.unsplash.com/photo-1581090700227-1e8f8f0b7b6b" alt="Detalhes de costura">
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <div class="container">
+        <div class="card">
+            <h2>Contato</h2>
+            <p><strong>Telefone:</strong> (00) 00000-0000</p>
+            <p><strong>Email:</strong> contato@costura.com</p>
+            <p><strong>Endereço:</strong> Sua cidade - Brasil</p>
+        </div>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2026 JOELMIR SOARES DA SILVA DE JESUS - Todos os direitos reservados</p>
+    <p>&copy; 2026 IVONETE DANIELE RODRIGUES BORGES - Todos os direitos reservados</p>
 </footer>
 
 </body>
